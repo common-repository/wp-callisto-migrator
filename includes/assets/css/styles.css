@@ -1,0 +1,35 @@
+/**
+ * Plugin CSS
+ *
+ * @package wmp
+ * @version 1.0
+ *
+ */
+
+.wmp_page .wmp_disabled {
+	cursor: none;
+	pointer-events: none;
+	opacity: .6;
+}
+
+.wmp_page .wmp_rotate {
+	transform: rotate(180deg);
+}
+
+.wmp_page .wmp_cursor {
+	cursor: pointer;
+}
+
+.wmp_page .wmp_post_toggle {
+	position: absolute;
+	right: 0;
+}
+
+.wmp_page .wmp_generated_cloned_posts .postbox {
+	margin-bottom: 0;
+}
+
+.wmp_page .wmp_generated_cloned_posts .article-preview__image-container img{
+	width: 100%;
+	height: auto;
+}
